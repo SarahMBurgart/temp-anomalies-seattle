@@ -6,8 +6,6 @@ import scipy.stats as scs
 #make it pretty
 plt.style.use('ggplot')
 
-%matplotlib inline
-
 
 
 # clean data set of null values for one column
@@ -33,11 +31,7 @@ def months_equally_weighted(df,lst_years,col):
     half_years = []
     # list of years,means
     weighted_years = []
-    
-    
-# year_means = pd.DataFrame(year_ms["HourlyDryBulbTemperature"].mean())
-    
-    
+    # year_means = pd.DataFrame(year_ms["HourlyDryBulbTemperature"].mean())
     # for each year lst of years in df
     for year in lst_years:
         # list of means from months
