@@ -11,10 +11,12 @@ plt.style.use('ggplot')
 # clean data set of null values for one column
 # returns new dataframe
 
-def no_more_null (df, column_not_null):
-    df_mask = df[column_not_null].notnull()
-    new_df = pd.DataFrame(df[df_mask])
-    return new_df
+def no_more_null (df, col_1, col_2):
+    #drop rows where both columns are null
+    
+    df_mask = df[(df[col_1].isna()) & (df[col_2].isna())]
+    df.drop(df_mask.index, inplace=True)
+    return df
 
 def year_month_cols (df):
     df['year'] = pd.DatetimeIndex(df.loc[:,'DATE']).year
