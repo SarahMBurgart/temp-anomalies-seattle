@@ -14,9 +14,9 @@ plt.style.use('ggplot')
 def no_more_null (df, col_1, col_2):
     #drop rows where both columns are null
     
-    df_mask = df[(df[col_1].isna()) & (df[col_2].isna())]
-    df.drop(df_mask.index, inplace=True)
-    return df
+    new_df = df[~((df[col_1].isna()) & (df[col_2].isna()))]
+  
+    return new_df
 
 def year_month_cols (df):
     df['year'] = pd.DatetimeIndex(df.loc[:,'DATE']).year
