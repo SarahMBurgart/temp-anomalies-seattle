@@ -1,4 +1,6 @@
 # temp-anomalies-seattle
+For a summation, with plots, please see the github page: [Temp-Anomalies-Seattle](http://SarahMBurgart.github.io/temp-anomalies-seattle)
+
 Comparing modern recorded temperature anomalies measured at Boeing Field in Seattle, WA to temperature anomalies from paleo-climatology.
 
 Current notebooks compare the change in temperature anomalies and use a MannWhitney test to prove they are not not from the same population.
