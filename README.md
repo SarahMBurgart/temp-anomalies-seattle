@@ -1,5 +1,5 @@
 # temp-anomalies-seattle
-For a summation, with plots, please see the github page: SarahMBurgart.github.io/temp-anomalies-seattle
+For a summation, with plots, please see the github page: [Temp-Anomalies-Seattle](http://SarahMBurgart.github.io/temp-anomalies-seattle)
 
 Comparing modern recorded temperature anomalies measured at Boeing Field in Seattle, WA to temperature anomalies from paleo-climatology.
 
