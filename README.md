@@ -1,5 +1,5 @@
 # temp-anomalies-seattle
-Please see a summation, w/ plots, is available: [Temp-Anomalies-Seattle](http://SarahMBurgart.github.io/temp-anomalies-seattle)
+A summation, w/ plots, is available: [Temp-Anomalies-Seattle](http://SarahMBurgart.github.io/temp-anomalies-seattle)
 
 To answer questions about how they climate or the one is changing compared to the rest of the northern Hemisphere: comparing modern recorded temperature anomalies measured at Boeing Field in Seattle, WA to temperature anomalies from paleo-climatology for the Northern Hemisphere.
 
